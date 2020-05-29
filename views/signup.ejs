@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<title>Signup</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link href = 'public/assets/styles.css' rel='stylesheet' type =  'text/css'>
+
+<script language="JavaScript" type="text/javascript" src="/controllers/signupController.js"></script>
+<script language="JavaScript" type="text/javascript" src="/public/assets/signup.js"></script>
+
+</head>
+
+<body>
+    <section style="align-self: center;" >
+    <div>
+<form id = 'myForm'> 
+    <input type = 'text', name = 'username', id = 'username', placeholder = 'Username', required>
+    <input type = 'password', name = 'password', id = 'password' placeholder = 'Password', required>
+    <input type = 'password', name = 'confirmPassword', id = 'confirmPassword' placeholder = 'Confirm Password', required>
+    <div>
+    
+    <button type= 'submit' style="align-self: center;" id ="btn01">
+        Sign Up
+    </button>
+</div>
+</section>
+
+</form>
+</div>
+
+<section>
+<div id ='div01'>
+<p id= 'p01'>Already have an account?</p>
+<p id= 'p02'></p>
+<br>
+<a  id='a01' href='/login'>Login</a>
+</div>
+</section>
+
+
+<script language="JavaScript" type="text/javascript" src="/controllers/signupController.js"></script>
+</body>
+</html>
